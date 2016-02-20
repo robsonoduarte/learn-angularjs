@@ -1,9 +1,16 @@
 var myApp = angular.module("myApp", []);
 
 
-myApp.controller("mainController", function($scope,$log) {
+
+
+/*myApp.controller("mainController", ['$scope', '$log',function($scope,$log) {
 	$log.debug($scope);
-});
+}]);*/
+
+
+
+// correct minification controller using array
+myApp.controller("mainController",["$scope","$log",function(o,l){l.debug(o)}]);
 
 
 
