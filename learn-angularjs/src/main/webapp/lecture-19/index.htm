@@ -21,7 +21,7 @@
 			<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="/">Directives ant Two Way Data Binding</a>
+					<a class="navbar-brand" href="/">Javascript Aside - The Event Loop</a>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
@@ -33,23 +33,17 @@
 		
 
 
-        <div class="container">
-			<div ng-controller="mainController">                
-        		
-        		<div>        		
-        			<label>What is your twitter handler?</label>
-        			<input type="text" ng-model="handle"/>        		
-        			<hr>        		
-        		</div>
-        		
-        		<a target="_blank" href="http://twitter.com/{{loweCaseHandle()}}">twitter.com/{{loweCaseHandle()}}</a>
-        		            
-            </div>
+
+        <div class="container">        		
+       		<div class="row">
+       			<div class="col-md-12">
+       				<input type="text" id="name">
+       			</div>        		        			        		
+       		</div>
 		</div>
 
 
-        <!-- load angular via CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
         <script src="app.js"></script>
         
     </body>
