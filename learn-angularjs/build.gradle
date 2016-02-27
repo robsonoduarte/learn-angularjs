@@ -23,6 +23,8 @@ repositories {
 }
 
 dependencies {
+	testCompile 'junit:junit:4.12'
 	compile 'javax:javaee-api:7.0'
     compile 'org.slf4j:slf4j-api:1.7.13'
+    compile 'com.google.code.gson:gson:2.6.2'
 }
