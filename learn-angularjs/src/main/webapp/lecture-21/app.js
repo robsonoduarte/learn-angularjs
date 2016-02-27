@@ -12,13 +12,11 @@ myApp.controller("mainController", ['$scope', '$filter',function($scope,$filter)
 	$scope.characters = 5;
 
 
-
-
 	$scope.rules = [
-	  {ruleName: 'Must be 5 characters'},
-	  {ruleName: 'Must not be used elsewhere'},
-	  {ruleName: 'Must be coll'},
-	];
+      	  {ruleName: 'Must be 5 characters'},
+      	  {ruleName: 'Must not be used elsewhere'},
+      	  {ruleName: 'Must be coll'},
+      ];
 
 	console.log($scope.rules)
 

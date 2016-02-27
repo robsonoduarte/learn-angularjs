@@ -12,15 +12,19 @@ myApp.controller("mainController", ['$scope', '$filter',function($scope,$filter)
 	$scope.characters = 5;
 
 
+	var rulesRequest = new XMLHttpRequest();
 
 
-	$scope.rules = [
-	  {ruleName: 'Must be 5 characters'},
-	  {ruleName: 'Must not be used elsewhere'},
-	  {ruleName: 'Must be coll'},
-	];
+	rulesRequest.onreadystatechange = function() {
+		$scope.$apply(function() {
+			if(rulesRequest.readyState == 4 && rulesRequest.status == 200){
+				$scope.rules =	JSON.parse(rulesRequest.responseText);
+			}
+		});
+	}
 
-	console.log($scope.rules)
+	rulesRequest.open("GET", "http://localhost:8080/learn-angularjs/api/lecture23", true);
+	rulesRequest.send()
 
 }]);
 

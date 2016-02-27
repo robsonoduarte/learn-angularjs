@@ -21,7 +21,7 @@
 			<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="/">Commons Dicrectives</a>
+					<a class="navbar-brand" href="/">JavaScript Aside: The XMLHTTPRequest Object</a>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
@@ -42,14 +42,14 @@
         			<hr>        		
         		</div>
         		
-        		
         		<div class="alert"  ng-class="{'alert-warning': handle.length < characters, 'alert-danger': handle.length > characters }"   ng-if="handle.length !== characters">
         			Must be 5 characters !        		
         		</div>
        
         		
-        		<a target="_blank" href="http://twitter.com/{{loweCaseHandle()}}">twitter.com/{{loweCaseHandle()}}</a>
-        		
+        		<div ng-cloak>
+        			<a  target="_blank" href="http://twitter.com/{{loweCaseHandle()}}" >twitter.com/{{loweCaseHandle()}}</a>
+        		</div>
         		
         		
         		<h3>Rules</h3>
