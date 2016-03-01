@@ -22,9 +22,35 @@ public class Lecture23Test {
 
 
 	@Test
-	public void test() {
-		String data = lecture23.data();
-		assertEquals(json(), data);
+	public void shouldSendTheRules() {
+		String rules = lecture23.rules();
+
+		assertEquals(json(asList(
+				new Rule(1, "Must be 5 characters"),
+				new Rule(1, "Must not be used elsewhere"),
+				new Rule(1, "Must be coll"))),
+				rules);
+	}
+
+
+
+
+
+
+
+
+
+
+	@Test
+	public void shouldAddTheNewRuleAndReturnTheRules() {
+		String rules = lecture23.addRule("new Rule");
+
+		assertEquals(json(asList(
+				new Rule(1, "Must be 5 characters"),
+				new Rule(1, "Must not be used elsewhere"),
+				new Rule(1, "Must be coll"),
+				new Rule(1, "new Rule"))),
+				rules);
 	}
 
 
@@ -50,21 +76,11 @@ public class Lecture23Test {
 
 
 
-
-	private String json() {
-		return new Gson().toJson(rules());
+	private String json(List<Rule> rules) {
+		return new Gson().toJson(rules);
 	}
 
 
-
-
-	private List<Rule> rules() {
-		return asList(
-					new Rule(1, "Must be 5 characters"),
-					new Rule(1, "Must not be used elsewhere"),
-					new Rule(1, "Must be coll")
-				);
-	}
 
 
 
