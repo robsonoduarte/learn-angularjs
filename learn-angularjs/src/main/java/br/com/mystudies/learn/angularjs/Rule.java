@@ -3,18 +3,17 @@ package br.com.mystudies.learn.angularjs;
 public class Rule {
 
 
-
-	 int id;
-	 String ruleName;
+	String ruleName;
 
 
 
+	public Rule() {}
 
-	public Rule(int id, String ruleName) {
-		this.id = id;
+
+
+	public Rule(String ruleName) {
 		this.ruleName = ruleName;
 	}
-
 
 
 }
