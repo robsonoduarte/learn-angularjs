@@ -1,7 +1,8 @@
 package br.com.mystudies.learn.angularjs;
 
 import static java.util.Arrays.asList;
-import static org.junit.Assert.assertEquals;
+import static org.hamcrest.Matchers.equalTo;
+import static org.junit.Assert.assertThat;
 
 import java.util.List;
 
@@ -23,13 +24,15 @@ public class Lecture23Test {
 
 	@Test
 	public void shouldSendTheRules() {
+
 		String rules = lecture23.rules();
 
-		assertEquals(json(asList(
-				new Rule(1, "Must be 5 characters"),
-				new Rule(1, "Must not be used elsewhere"),
-				new Rule(1, "Must be coll"))),
-				rules);
+		assertThat(json(asList(
+			new Rule("Must be 5 characters"),
+			new Rule("Must not be used elsewhere"),
+			new Rule("Must be coll"),
+			new Rule("new Rule"))),
+			equalTo(rules));
 	}
 
 
@@ -43,14 +46,16 @@ public class Lecture23Test {
 
 	@Test
 	public void shouldAddTheNewRuleAndReturnTheRules() {
-		String rules = lecture23.addRule("new Rule");
 
-		assertEquals(json(asList(
-				new Rule(1, "Must be 5 characters"),
-				new Rule(1, "Must not be used elsewhere"),
-				new Rule(1, "Must be coll"),
-				new Rule(1, "new Rule"))),
-				rules);
+		String rules = lecture23.addRule("{'ruleName':'new Rule'}");
+
+		assertThat(json(asList(
+				new Rule("Must be 5 characters"),
+				new Rule("Must not be used elsewhere"),
+				new Rule("Must be coll"),
+				new Rule("new Rule"))),
+				equalTo(rules));
+
 	}
 
 
