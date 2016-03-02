@@ -22,9 +22,9 @@ public class Lecture23 {
 
 	static {
 		rules = new ArrayList<>();
-		rules.add(new Rule(1, "Must be 5 characters"));
-		rules.add(new Rule(1, "Must not be used elsewhere"));
-		rules.add(new Rule(1, "Must be coll"));
+		rules.add(new Rule("Must be 5 characters"));
+		rules.add(new Rule("Must not be used elsewhere"));
+		rules.add(new Rule("Must be coll"));
 	}
 
 
@@ -40,8 +40,9 @@ public class Lecture23 {
 
 
 	@POST
-	public String addRule(String ruleName) {
-		rules.add(new Rule(1, ruleName));
+	public String addRule(String json) {
+		Rule rule = new Gson().fromJson(json, Rule.class);
+		rules.add(rule);
 		return json();
 	}
 
