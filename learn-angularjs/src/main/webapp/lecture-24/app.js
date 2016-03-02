@@ -25,7 +25,7 @@ myApp.controller("mainController", ['$scope', '$filter', '$http',function($scope
 	$scope.newRule = '';
 	$scope.addRule = function() {
 
-		$http.post('/learn-angularjs/api/lecture23', {newRule: $scope.newRule})
+		$http.post('/learn-angularjs/api/lecture23', { 'ruleName': $scope.newRule})
 		.success(function(result) {
 			$scope.rules = result;
 			$scope.newRule = '';
