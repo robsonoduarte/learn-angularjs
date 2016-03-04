@@ -24,7 +24,8 @@
 					<a class="navbar-brand" href="/">Routing Tempaltes, and Controlllers</a>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+					<li><a href="#/"><i class="fa fa-home"></i>Home</a></li>
+					<li><a href="#second"><i class="fa fa-home"></i>Second</a></li>
 				</ul>
 			</div>
 			</nav>
@@ -34,18 +35,20 @@
 
 
         <div class="container">
-			<div ng-controller="mainController">
-				<h1>{{name}}</h1>             
+        
+			<div ng-view>             
             </div>
+        
+        
+        	
+        
             
-			<div ng-controller="secondController">
-				<h3>{{name}}</h3>             
-            </div>
 		</div>
 
 
         <!-- load angular via CDN -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
         <script src="app.js"></script>
         
     </body>
