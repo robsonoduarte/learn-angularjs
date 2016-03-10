@@ -23,12 +23,22 @@ myApp.config(function($routeProvider) {
 
 myApp.controller("mainController", ['$scope', '$location', '$log',function($scope,$location,$log) {
 	$scope.name = 'Main'
+
+	$log.main = 'Property from main';
+	$log.log($log);
+	$log.log($scope);
+
 }]);
 
 
 
-myApp.controller("secondController", ['$scope', '$location', '$log', '$routeParams',function($scope,$location, $log, $routeParams) {
+myApp.controller("secondController", ['$scope', '$location', '$log', '$routeParams',function($scope,$location, $log, $routeParams){
 	$scope.num = $routeParams.num || 1
+
+	$log.second = 'Property from second';
+	$log.log($log);
+	$log.log($scope);
+
 }]);
 
 
