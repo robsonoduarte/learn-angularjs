@@ -21,23 +21,48 @@ myApp.config(function($routeProvider) {
 
 
 
-myApp.controller("mainController", ['$scope', '$location', '$log',function($scope,$location,$log) {
-	$scope.name = 'Main'
 
-	$log.main = 'Property from main';
-	$log.log($log);
-	$log.log($scope);
+myApp.service('nameService', function() {
+	var self = this
+
+	this.name = 'Robson Duarte'
+
+	this.nameLength = function() {
+		return self.name.length
+	}
+})
+
+
+
+
+
+myApp.controller("mainController", ['$scope', '$location', '$log', 'nameService', function($scope,$location,$log, nameService) {
+	$scope.name = nameService.name
+
+
+	$scope.$watch('name', function() {
+		nameService.name = $scope.name;
+	})
+
+
+	$log.log(nameService.name)
+	$log.log(nameService.nameLength())
 
 }]);
 
 
 
-myApp.controller("secondController", ['$scope', '$location', '$log', '$routeParams',function($scope,$location, $log, $routeParams){
+
+
+myApp.controller("secondController", ['$scope', '$location', '$log', '$routeParams', 'nameService', function($scope,$location, $log, $routeParams,nameService){
 	$scope.num = $routeParams.num || 1
 
-	$log.second = 'Property from second';
-	$log.log($log);
-	$log.log($scope);
+	$scope.name = nameService.name
+
+	$scope.$watch('name', function() {
+		nameService.name = $scope.name;
+	})
+
 
 }]);
 
