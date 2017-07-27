@@ -1,4 +1,4 @@
 # Learn [AngularJS](https://angularjs.org/)
-Repo for studies about AngularJS
+Repo about studies with AngularJS, the topics are:
 
-**README in CONSTRUTION**
+* [Learn and Understand AngularJS (1.x)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs)
