@@ -23,4 +23,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 25 - Angular Aside - Multiple Controllers, Multiple Views ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-25)
 * [Lecture 26 - HTML and Javascript Aside: Single Page Apps and the Hash ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-26)
 * [Lecture 27 - Routing Tempaltes, and Controlllers ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-27)
+* [Lecture 29 - Javascript Aside: Singletons ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-29)
 
