@@ -14,6 +14,8 @@ myApp.controller("mainController", ['$scope', '$filter',function($scope,$filter)
 
 	var rulesRequest = new XMLHttpRequest();
 
+	rulesRequest.open("GET", "http://localhost:8080/learn-and-understand-angularjs/api/lecture23", true);
+	rulesRequest.send()
 
 	rulesRequest.onreadystatechange = function() {
 		$scope.$apply(function() {
@@ -23,8 +25,6 @@ myApp.controller("mainController", ['$scope', '$filter',function($scope,$filter)
 		});
 	}
 
-	rulesRequest.open("GET", "http://localhost:8080/learn-angularjs/api/lecture23", true);
-	rulesRequest.send()
 
 }]);
 
