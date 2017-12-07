@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en-us" ng-app="myApp">
     <head>
-        <title>Introduction to AngularJS</title>
+        <title>Learn and Understand AngularJS (1.X)</title>
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta charset="UTF-8">
 
@@ -21,11 +21,10 @@
 			<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="/">HTML Aside - Resusable Components</a>
+					<a class="navbar-brand" href="/">HTML Aside - Reusable Components</a>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#/"><i class="fa fa-home"></i>Home</a></li>
-					<li><a href="#second"><i class="fa fa-home"></i>Second</a></li>
+					<li><a href="../index.htm"><i class="fa fa-home"></i>Home</a></li>
 				</ul>
 			</div>
 			</nav>
@@ -34,15 +33,23 @@
 		
 
         <div class="container">        
-			<div ng-view>             
-            </div>                    
+			<div class=col-md-12">
+			
+				<!-- Some example of Reusable Components you can do with Angular see Lecture 32 -->
+				<searchResult more-detail="#"></searchResult>
+				<div searchResult></div>
+				<div class="searchResult"></div>
+			
+				<!-- the example of output of the components -->
+				<h1>Search Results</h1>				
+				<div>
+					<h2>Title</h2>
+					<p> Detail </p>
+					<a href="#">... more detail</a>
+				</div>
+			</div>
+			                    
 		</div>
-
-
-        <!-- load angular via CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
-        <script src="app.js"></script>
-        
+		        
     </body>
 </html>
