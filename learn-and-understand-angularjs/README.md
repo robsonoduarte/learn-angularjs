@@ -10,4 +10,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 12 - Javascript Aside: Functions and Strings](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-12)
 * [Lecture 13 - How Does Angular Do Dependency Injection](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-13)
 * [Lecture 14 - Getting Other Services](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-14)
+* [Lecture 15 - Javascript Aside: Arrays And Functions](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-15)
 
