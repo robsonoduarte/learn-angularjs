@@ -26,4 +26,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 29 - Javascript Aside: Singletons ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-29)
 * [Lecture 30 - Creating a Service ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-30)
 * [Lecture 31 - HTML Aside - Reusable Components ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-31)
+* [Lecture 32 -  Javascript and Angular Aside: Variable Names and Normalization ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-32)
 
