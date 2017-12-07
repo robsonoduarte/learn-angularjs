@@ -13,4 +13,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 15 - Javascript Aside: Arrays And Functions](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-15)
 * [Lecture 16 - Dependency Injection and Minification](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-16)
 * [Lecture 17 - Scope And Interpolation](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-17)
+* [Lecture 18 - Directives ant Two Way Data Binding](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-18)
 
