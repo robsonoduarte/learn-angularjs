@@ -6,4 +6,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 07 - Javascript Aside: The Global Namespace](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-07)
 * [Lecture 09 - Modules Apps Controller](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-09)
 * [Lecture 10 - Dependency Injection](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-10)
+* [Lecture 11 - The Scope Service](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-11)
 
