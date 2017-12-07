@@ -17,4 +17,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 19 - Javascript Aside - The Event Loop](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-19)
 * [Lecture 20 - Watchers an the Digest Loop](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-20)
 * [Lecture 21 - Commons Dicrectives](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-21)
+* [Lecture 22 - Commons Dicrectives (Part 2) ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-22)
 
