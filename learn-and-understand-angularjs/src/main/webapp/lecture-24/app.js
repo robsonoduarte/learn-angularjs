@@ -12,7 +12,7 @@ myApp.controller("mainController", ['$scope', '$filter', '$http',function($scope
 	$scope.characters = 5;
 
 
-	$http.get('/learn-angularjs/api/lecture23')
+	$http.get('/learn-and-understand-angularjs/api/lecture23')
 		 .success(function(result) {
 			 $scope.rules = result;
 		 })
@@ -25,7 +25,7 @@ myApp.controller("mainController", ['$scope', '$filter', '$http',function($scope
 	$scope.newRule = '';
 	$scope.addRule = function() {
 
-		$http.post('/learn-angularjs/api/lecture23', { 'ruleName': $scope.newRule})
+		$http.post('/learn-and-understand-angularjs/api/lecture23', { 'ruleName': $scope.newRule})
 		.success(function(result) {
 			$scope.rules = result;
 			$scope.newRule = '';
