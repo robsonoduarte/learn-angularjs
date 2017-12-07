@@ -20,4 +20,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 22 - Commons Dicrectives (Part 2) ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-22)
 * [Lecture 23 - JavaScript Aside: The XMLHTTPRequest Object ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-23)
 * [Lecture 24 - External Data and $http ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-24)
+* [Lecture 25 - Angular Aside - Multiple Controllers, Multiple Views ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-25)
 
