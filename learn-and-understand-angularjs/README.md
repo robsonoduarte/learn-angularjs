@@ -15,4 +15,5 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 17 - Scope And Interpolation](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-17)
 * [Lecture 18 - Directives ant Two Way Data Binding](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-18)
 * [Lecture 19 - Javascript Aside - The Event Loop](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-19)
+* [Lecture 20 - Watchers an the Digest Loop](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-20)
 
