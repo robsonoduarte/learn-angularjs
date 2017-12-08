@@ -30,3 +30,4 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 33 -  Creating a Directive ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-33)
 * [Lecture 34 -  Templates ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-34)
 * [Lecture 35 -  Scope (@, =, and other obtuse symbols)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-35)
+* [Lecture 36 -  Scope (@, =, and other obtuse symbols) (Part 2)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-36)
