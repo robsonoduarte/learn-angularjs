@@ -29,4 +29,4 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 32 -  Javascript and Angular Aside: Variable Names and Normalization ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-32)
 * [Lecture 33 -  Creating a Directive ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-33)
 * [Lecture 34 -  Templates ](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-34)
-
+* [Lecture 35 -  Scope (@, =, and other obtuse symbols)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-35)
