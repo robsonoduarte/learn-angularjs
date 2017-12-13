@@ -38,3 +38,4 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 41 -  Understanding Transclusion](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-41)
 * [Lecture 42 -  A Weather Forecast SPA](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-42)
 * [Lecture 43 -  A Weather Forecast SPA(A Custom Service)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-43)
+* [Lecture 45 -  A Weather Forecast SPA(Binding Data (Part 1))](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-45)
