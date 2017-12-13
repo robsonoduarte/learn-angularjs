@@ -35,3 +35,4 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 38 -  Repeated Directives](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-38)
 * [Lecture 39 -  Understanding 'Compile'](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-39)
 * [Lecture 40 -  Understanding 'Link'](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-40)
+* [Lecture 41 -  Understanding Transclusion](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-41)
