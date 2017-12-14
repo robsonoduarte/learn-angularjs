@@ -40,3 +40,4 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 43 -  A Weather Forecast SPA(A Custom Service)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-43)
 * [Lecture 45 -  A Weather Forecast SPA(Binding Data (Part 1))](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-45)
 * [Lecture 46 -  A Weather Forecast SPA(Binding Data (Part 2))](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-46)
+* [Lecture 47 -  A Weather Forecast SPA(A Custom Directive)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-47)
