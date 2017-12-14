@@ -42,3 +42,4 @@ This project is based in the following [curse of Udemy](https://www.udemy.com/le
 * [Lecture 46 -  A Weather Forecast SPA(Binding Data (Part 2))](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-46)
 * [Lecture 47 -  A Weather Forecast SPA(A Custom Directive)](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-47)
 * [Lecture 49 -  Improving our SPA's UX With ng-submit](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-49)
+* [Lecture 50 -  Designing Services in Large AngularJS Applications](https://github.com/robsonoduarte/learn-angularjs/tree/master/learn-and-understand-angularjs/src/main/webapp/lecture-50)
