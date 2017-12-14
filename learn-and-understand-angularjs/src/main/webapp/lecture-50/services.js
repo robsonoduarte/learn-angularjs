@@ -3,10 +3,10 @@ weatherApp.service('cityService', function() {
 	this.city = "London"
 });
 
-weatherApp.service('weatherService', function() {
+weatherApp.service('weatherService', [ '$resource', function($resource)] {
 
-
-	this.GetWeather = function(city,day) {
+	this.GetWeather = function(city,day){
+		
 		var weatherAPI =
 			$resource("http://api.openweathermap.org/data/2.5/forecast/daily?");
 
