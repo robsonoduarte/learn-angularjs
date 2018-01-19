@@ -1,5 +1,5 @@
 
-// sintaxe padrao de uma funcção
+// sintaxe padrao de uma function
 let isEnoughToBeatMF = function(parsecs: number): boolean{
   return parsecs < 12
 }
