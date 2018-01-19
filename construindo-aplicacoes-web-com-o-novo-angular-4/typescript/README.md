@@ -1,4 +1,4 @@
-Vamos Falar Sobre Typescript
+Typescript
 --------------------------------------------------
 Introdução ao Typescript, *os tópcios são*:
 
