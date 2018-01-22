@@ -1,4 +1,4 @@
-// sintaxe padrao de uma funcção
+// sintaxe padrao de uma function
 var isEnoughToBeatMF = function (parsecs) {
     return parsecs < 12;
 };
