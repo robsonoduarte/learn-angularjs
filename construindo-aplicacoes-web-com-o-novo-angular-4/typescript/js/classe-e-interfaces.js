@@ -23,11 +23,13 @@ var Spacecraft = /** @class */ (function () {
 //instânciando um objeto da classe
 var ship = new Spacecraft('hyperdrive');
 ship.jumpIntoHyperspace();
-// usando herança
+// usando herança e interfaces
 var MillenniumFalcon = /** @class */ (function (_super) {
     __extends(MillenniumFalcon, _super);
     function MillenniumFalcon() {
-        return _super.call(this, 'hyperdrive') || this;
+        var _this = _super.call(this, 'hyperdrive') || this;
+        _this.cargoContainers = 2;
+        return _this;
     }
     MillenniumFalcon.prototype.jumpIntoHyperspace = function () {
         if (Math.random() >= 0.5) {
@@ -41,3 +43,6 @@ var MillenniumFalcon = /** @class */ (function (_super) {
 }(Spacecraft));
 var falcom = new MillenniumFalcon();
 falcom.jumpIntoHyperspace();
+// usando a interface
+var goodForTheJob = function (ship) { return ship.cargoContainers > 2; };
+console.log("Is falcom good for the job? " + (goodForTheJob(falcom) ? 'yes' : 'no'));
