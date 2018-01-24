@@ -1,8 +1,8 @@
 # Primeira Aplicação com o Angular 4  => Jedi Academy
 
-Primeira Aplicação com o Angular 4, esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 1.6.4, os tópicos são:
+Primeira Aplicação com o Angular 4, esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 1.6.5, os tópicos são:
 
-
+* [Componentes](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/header)
 
 
 ### Para executar ou adicionar novos componentes siga as instruções abaixo (em Inglês):
