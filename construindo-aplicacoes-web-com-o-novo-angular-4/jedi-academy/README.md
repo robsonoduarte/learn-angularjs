@@ -1,6 +1,11 @@
-# JediAcademy
+# Primeira Aplicação com o Angular 4  => Jedi Academy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.4.
+Primeira Aplicação com o Angular 4, esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 1.6.4, os tópicos são:
+
+
+
+
+### Para executar ou adicionar novos componentes siga as instruções abaixo ( em Inglês):
 
 ## Development server
 
