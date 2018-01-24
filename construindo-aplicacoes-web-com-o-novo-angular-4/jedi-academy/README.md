@@ -5,7 +5,7 @@ Primeira Aplicação com o Angular 4, esse projeto foi gerado com [Angular CLI](
 
 
 
-### Para executar ou adicionar novos componentes siga as instruções abaixo ( em Inglês):
+### Para executar ou adicionar novos componentes siga as instruções abaixo (em Inglês):
 
 ## Development server
 
