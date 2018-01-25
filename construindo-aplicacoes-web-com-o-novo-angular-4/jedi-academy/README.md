@@ -5,6 +5,8 @@ Primeira Aplicação com o Angular 4, esse projeto foi gerado com [Angular CLI](
 * [Componentes](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/header)
 * [Property Binding](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student)
 * [Decorator Input](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student)
+* [Diretivas ngIf e ngFor](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student)
+
 
 
 
