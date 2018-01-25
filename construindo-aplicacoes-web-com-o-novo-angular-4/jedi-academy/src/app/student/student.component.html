@@ -1,6 +1,10 @@
-<div>
-  Student: {{student.name}}
-  <div *ngIf="student.isJedi">
-    Jedi Temple: {{student.temple}}
+<div *ngIf="student">
+  <!-- o operador ? e utilizando para indicar que nao deve ler a propriedade caso objeto seja indefinido(undefined) -->
+  Student: {{student?.name}}
+  <div *ngIf="student?.isJedi">
+    Jedi Temple: {{student?.temple}}
   </div>
 </div>
+<p *ngIf="!student">
+  Sem dados para exbir
+</p>
