@@ -1,8 +1,13 @@
 <div *ngIf="student">
   <!-- o operador ? e utilizando para indicar que nao deve ler a propriedade caso objeto seja indefinido(undefined) -->
-  Student: {{student?.name}}
+  Student: <a href="#" (click)="clicked()">{{student?.name}}</a>
   <div *ngIf="student?.isJedi">
     Jedi Temple: {{student?.temple}}
+    <!-- utilizando a variável de template para invocar o metódo focus-->
+    <button (click)="description.focus()">Focus!</button>
+    <br>
+    <!-- utiizando variáveis de template para obter um referência a um elemento -->
+    <textarea #description></textarea>
   </div>
 </div>
 <p *ngIf="!student">
