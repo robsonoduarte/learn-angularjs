@@ -7,6 +7,7 @@ Primeira Aplicação com o Angular 4, esse projeto foi gerado com [Angular CLI](
 * [Decorator Input](https://github.com/robsonoduarte/learn-angularjs/blob/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student/student.component.ts)
 * Diretivas [ngIf](https://github.com/robsonoduarte/learn-angularjs/blob/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student/student.component.html) e [ngFor](https://github.com/robsonoduarte/learn-angularjs/blob/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/app.component.html)
 * [Operador de Navegação Segura](https://github.com/robsonoduarte/learn-angularjs/blob/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student/student.component.html)
+* Eventos [Template](https://github.com/robsonoduarte/learn-angularjs/blob/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student/student.component.html) | [Classe](https://github.com/robsonoduarte/learn-angularjs/blob/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy/src/app/student/student.component.ts)
 
 
 
