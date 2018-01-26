@@ -4,4 +4,5 @@ Esse projeto e baseado no seguinte [curso da Udemy](https://www.udemy.com/angula
 
 * [Typescript](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/typescript)
 * [Primeira Aplicação](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/jedi-academy)
+* [Meat App](https://github.com/robsonoduarte/learn-angularjs/tree/master/construindo-aplicacoes-web-com-o-novo-angular-4/meat-app)
 
