@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RestaurantsComponent implements OnInit {
 
-
   restaurants: Restaurant[] 
   
   constructor(private restaurantService: RestaurantsService) {}
