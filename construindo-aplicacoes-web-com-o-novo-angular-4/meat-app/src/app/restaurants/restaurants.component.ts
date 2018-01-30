@@ -8,12 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RestaurantsComponent implements OnInit {
 
-  restaurants: Restaurant[] 
-  
+  restaurants: Restaurant[]
+
   constructor(private restaurantService: RestaurantsService) {}
 
   ngOnInit() {
-    this.restaurants = this.restaurantService.restaurants()
+    this.restaurantService.restaurants()
+      .subscribe(restaurants => this.restaurants = restaurants )
   }
 
 }
