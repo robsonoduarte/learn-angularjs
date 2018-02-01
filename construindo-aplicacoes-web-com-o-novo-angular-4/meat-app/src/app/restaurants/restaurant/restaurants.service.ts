@@ -1,6 +1,7 @@
 import { ErrorHandler } from '../../app-error-handler';
 import { MEAT_API } from '../../app.api';
-import { Restaurant, Review } from './restaurant.model'
+import { Review } from '../../restaurant-detail/reviews/review.model';
+import { Restaurant } from './restaurant.model';
 import { Injectable } from '@angular/core'
 import { Http } from '@angular/http'
 import { Observable } from 'rxjs';

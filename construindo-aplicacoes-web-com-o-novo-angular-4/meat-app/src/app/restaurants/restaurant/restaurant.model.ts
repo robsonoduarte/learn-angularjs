@@ -8,10 +8,3 @@ export interface Restaurant {
   about: string
   hours: string
 }
-
-export interface Review{
-  rating: number
-  name: string
-  date: string
-  comments: string
-}
