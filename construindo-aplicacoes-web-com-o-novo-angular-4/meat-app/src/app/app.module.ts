@@ -20,7 +20,8 @@ import { MenuItemComponent } from './restaurant-detail/menu-item/menu-item.compo
 import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
 import { ShoppingCartService } from './restaurant-detail/shopping-cart/shopping-cart.service';
 import { registerLocaleData } from '@angular/common';
-import localept from '@angular/common/locales/pt'
+import localept from '@angular/common/locales/pt';
+import { OrderComponent } from './order/order.component'
 
 
 registerLocaleData(localept)
@@ -37,7 +38,8 @@ registerLocaleData(localept)
     MenuComponent,
     ShoppingCartComponent,
     MenuItemComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
