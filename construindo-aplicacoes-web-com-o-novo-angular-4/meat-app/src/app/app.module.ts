@@ -22,6 +22,7 @@ import { ShoppingCartService } from './restaurant-detail/shopping-cart/shopping-
 import { registerLocaleData } from '@angular/common';
 import localept from '@angular/common/locales/pt';
 import { OrderComponent } from './order/order.component'
+import { FormsModule } from '@angular/forms';
 
 
 registerLocaleData(localept)
@@ -44,6 +45,7 @@ registerLocaleData(localept)
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [RestaurantsService, ShoppingCartService, {provide: LOCALE_ID, useValue: 'pt-BR'}],
