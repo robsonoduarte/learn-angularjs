@@ -23,6 +23,7 @@ import { registerLocaleData } from '@angular/common';
 import localept from '@angular/common/locales/pt';
 import { OrderComponent } from './order/order.component'
 import { FormsModule } from '@angular/forms';
+import { InputComponent } from './shared/input/input.component';
 
 
 registerLocaleData(localept)
@@ -40,7 +41,8 @@ registerLocaleData(localept)
     ShoppingCartComponent,
     MenuItemComponent,
     ReviewsComponent,
-    OrderComponent
+    OrderComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
