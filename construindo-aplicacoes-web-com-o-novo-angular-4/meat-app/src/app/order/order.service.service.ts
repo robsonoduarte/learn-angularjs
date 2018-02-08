@@ -14,6 +14,10 @@ export class OrderService {
   }
   
   
+  itemsValue(){
+    return this.cartService.total()
+  }
+  
   increaseQty(item: CartItem){
     this.cartService.increaseQty(item)
   }
