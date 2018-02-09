@@ -43,6 +43,7 @@ export class OrderService {
     return this.http
       .post(`${MEAT_API}/orders`, JSON.stringify(order), new RequestOptions({headers: headers}))
       .map(resp => resp.json())
+      .map(o => o.id)
   }
   
   
