@@ -41,7 +41,6 @@ export class ShoppingCartService {
  
   increaseQty(item: CartItem){
     item.quantity = item.quantity + 1
-    console.log(item.quantity)
   }
  
  
