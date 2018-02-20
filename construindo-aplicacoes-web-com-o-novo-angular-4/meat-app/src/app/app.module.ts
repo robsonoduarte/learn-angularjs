@@ -30,6 +30,7 @@ import { OrderService } from './order/order.service.service';
 import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { RatingComponent } from './shared/rating/rating.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 registerLocaleData(localept)
@@ -59,6 +60,7 @@ registerLocaleData(localept)
     BrowserModule,
     HttpModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [RestaurantsService, ShoppingCartService, OrderService, {provide: LOCALE_ID, useValue: 'pt-BR'}],
