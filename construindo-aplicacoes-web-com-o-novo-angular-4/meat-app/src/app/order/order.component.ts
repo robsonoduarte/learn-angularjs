@@ -3,6 +3,7 @@ import { RadioOption } from '../shared/radio/radio-option.model';
 import { Order, OrderItem } from './order.model';
 import { OrderService } from './order.service.service';
 import { Component, OnInit } from '@angular/core';
+import { AbstractControl } from '@angular/forms';
 import { Validators } from '@angular/forms';
 import { FormBuilder } from '@angular/forms';
 import { FormGroup } from '@angular/forms';
@@ -41,9 +42,21 @@ export class OrderComponent implements OnInit {
       number: this.formBuilder.control('',[Validators.required, Validators.pattern(this.numberPattern)]),
       optionalAddress: this.formBuilder.control(''),
       paymentOption: this.formBuilder.control('',[Validators.required])
-    })
+    },{validator:OrderComponent.equalTo})
   }
 
+  
+  static equalTo(group:AbstractControl): {[key:string]: boolean} {
+    const email = group.get('email')
+    const emailConfirmation = group.get('emailConfirmation')
+    
+    if(!email || !emailConfirmation) {return undefined}
+    
+    if(email.value !== emailConfirmation.value) {return {emailsNotMatch:true}}
+    
+    return undefined       
+  }
+  
   
   itemsValue(){
     return this.orderService.itemsValue()
