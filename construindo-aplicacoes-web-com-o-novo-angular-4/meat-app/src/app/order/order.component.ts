@@ -3,6 +3,7 @@ import { RadioOption } from '../shared/radio/radio-option.model';
 import { Order, OrderItem } from './order.model';
 import { OrderService } from './order.service.service';
 import { Component, OnInit } from '@angular/core';
+import { Validators } from '@angular/forms';
 import { FormBuilder } from '@angular/forms';
 import { FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -13,6 +14,9 @@ import { Router } from '@angular/router';
 })
 export class OrderComponent implements OnInit {
 
+  emialPattern = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
+  
+  numberPattern = /^[0-9]*$/
   
   
   orderForm: FormGroup
@@ -30,13 +34,13 @@ export class OrderComponent implements OnInit {
 
   ngOnInit() {
     this.orderForm = this.formBuilder.group({
-      name: this.formBuilder.control(''),
-      email: this.formBuilder.control(''),
-      emailConfirmation: this.formBuilder.control(''),
-      address: this.formBuilder.control(''),
-      number: this.formBuilder.control(''),
+      name: this.formBuilder.control('',[Validators.required, Validators.minLength(5)]),
+      email: this.formBuilder.control('',[Validators.required, Validators.pattern(this.emialPattern)]),
+      emailConfirmation: this.formBuilder.control('',[Validators.required, Validators.pattern(this.emialPattern)]),
+      address: this.formBuilder.control('',[Validators.required, Validators.minLength(5)]),
+      number: this.formBuilder.control('',[Validators.required, Validators.pattern(this.numberPattern)]),
       optionalAddress: this.formBuilder.control(''),
-      paymentOption: this.formBuilder.control('')
+      paymentOption: this.formBuilder.control('',[Validators.required])
     })
   }
 
