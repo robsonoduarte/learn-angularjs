@@ -20,15 +20,9 @@ import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component'
 import { ShoppingCartService } from './restaurant-detail/shopping-cart/shopping-cart.service';
 import { registerLocaleData } from '@angular/common';
 import localept from '@angular/common/locales/pt';
-import { OrderComponent } from './order/order.component'
-import { FormsModule } from '@angular/forms';
-
-import { OrderItensComponent } from './order/order-itens/order-itens.component';
 import { OrderService } from './order/order.service.service';
-import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { SharedModule } from './shared/shared.module';
-import { ReactiveFormsModule } from '@angular/forms';
 
 
 registerLocaleData(localept)
@@ -45,9 +39,6 @@ registerLocaleData(localept)
     ShoppingCartComponent,
     MenuItemComponent,
     ReviewsComponent,
-    OrderComponent,
-    OrderItensComponent,
-    DeliveryCostsComponent,
     OrderSummaryComponent
   ],
   imports: [
