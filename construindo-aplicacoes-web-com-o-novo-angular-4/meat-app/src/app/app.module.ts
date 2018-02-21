@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ROUTES } from './app.routes';
-import { CoreModule } from './core/core.module';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { RestaurantComponent } from './restaurants/restaurant/restaurant.component';
 import { RestaurantDetailComponent } from './restaurant-detail/restaurant-detail.component';
@@ -42,8 +41,7 @@ registerLocaleData(localept)
   imports: [
     BrowserModule,
     HttpModule,
-    SharedModule,
-    CoreModule,
+    SharedModule.forRoot(),
     RouterModule.forRoot(ROUTES)
   ],
   providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}],
