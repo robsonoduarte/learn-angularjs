@@ -20,6 +20,7 @@ import { registerLocaleData } from '@angular/common';
 import localept from '@angular/common/locales/pt';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { SharedModule } from './shared/shared.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PreloadAllModules } from '@angular/router';
 
 
@@ -41,7 +42,8 @@ registerLocaleData(localept)
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    BrowserAnimationsModule,
+    HttpModule,    
     SharedModule.forRoot(),
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})
   ],
