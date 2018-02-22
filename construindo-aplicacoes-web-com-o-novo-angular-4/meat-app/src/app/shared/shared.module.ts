@@ -8,12 +8,13 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
+import { SnackbarComponent } from './messages/snackbar/snackbar.component';
 
 
 @NgModule({
-  declarations:[InputComponent,RadioComponent,RatingComponent],
+  declarations:[InputComponent,RadioComponent,RatingComponent, SnackbarComponent],
   imports:[CommonModule,FormsModule,ReactiveFormsModule],
-  exports:[InputComponent,RadioComponent,RatingComponent,CommonModule,FormsModule,ReactiveFormsModule]
+  exports:[InputComponent,RadioComponent,RatingComponent,CommonModule,FormsModule,ReactiveFormsModule,SnackbarComponent]
 })
 
 export class SharedModule {
