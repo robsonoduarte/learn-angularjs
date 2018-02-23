@@ -4,7 +4,7 @@ import {trigger, state, style, transition, animate} from '@angular/animations'
 
 @Component({
   selector: 'mt-menu-item',
-  templateUrl: './menu-item.component.html'
+  templateUrl: './menu-item.component.html',
   animations: [
     trigger('menuItemAppeared',[
       state('ready', style({opacity: 1})),
