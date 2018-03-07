@@ -7,7 +7,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class OrderItensComponent implements OnInit {
 
-  
   @Input() itens: CartItem[]
   
   @Output() increseQty = new EventEmitter<CartItem>()
@@ -32,6 +31,4 @@ export class OrderItensComponent implements OnInit {
   emitRemove(item: CartItem){
     this.remove.emit(item)
   }
-  
-  
 }
