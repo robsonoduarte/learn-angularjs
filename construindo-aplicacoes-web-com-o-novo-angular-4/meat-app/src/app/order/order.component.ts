@@ -91,8 +91,5 @@ export class OrderComponent implements OnInit {
       this.orderService.clear()
     })
     
-  }
-  
-  
-  
+  } 
 }
